@@ -93,13 +93,7 @@ def make_api_call(symbol, interval, api_key):
 
 
 def preprocess_data(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Preprocess the raw data to ensure correct format, handling missing values and 
-    standardizing the timestamp.
-    """
-    # Fix the alignment issue by making sure the values in the second column are correctly placed
-    # If there are any rows where the second column (value) is mistakenly shifted to the index
-    # we handle this by aligning it properly.
+    
     if df.isnull().any(axis=1).sum() > 0:
         # Reset index and attempt to parse the data correctly
         df_reset = df.reset_index()
