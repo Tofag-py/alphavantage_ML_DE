@@ -5,3 +5,4 @@ Config/*
 Terraform_files/.terraform/*
 Terraform_files/*.tfstate
 Terraform_files/.terraform.lock.hcl
+Terraform_files/terraform.tfstate.backup
