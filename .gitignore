@@ -1,0 +1,7 @@
+# Remove Config files
+Config/*
+
+# Remove Terraform system files
+Terraform_files/.terraform/*
+Terraform_files/*.tfstate
+Terraform_files/.terraform.lock.hcl
