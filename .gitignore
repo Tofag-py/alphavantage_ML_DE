@@ -6,3 +6,5 @@ Terraform_files/.terraform/*
 Terraform_files/*.tfstate
 Terraform_files/.terraform.lock.hcl
 Terraform_files/terraform.tfstate.backup
+# Ignore terraform backup files
+Terraform_files/*.tfstate.backup
