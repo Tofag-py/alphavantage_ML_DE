@@ -1,0 +1,11 @@
+ pyyaml
+requests
+prefect
+matplotlib
+pandas
+plotly
+seaborn
+pymongo
+scikit-learn
+statsmodels
+boto3
